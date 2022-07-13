@@ -1,0 +1,22 @@
+package area;
+
+/**
+ *
+ * @author sjcet
+ */
+import graphics.*;
+import java.util.Scanner;
+
+class area {
+    public static void main(String args[]){
+        rectangle obj1=new rectangle();
+        obj1.recarea();
+        triangle obj2=new triangle();
+        obj2.triarea();
+        square obj3=new square();
+        obj3.sqarea();
+        circle obj4=new circle();
+        obj4.cirarea();
+        
+    }
+}
