@@ -1,0 +1,22 @@
+package graphics;
+
+/**
+ *
+ * @author sjcet
+ */
+import java.util.Scanner;
+
+public class rectangle {
+    public void recarea(){
+        Scanner obj=new Scanner(System.in);
+        rectangle obj1=new rectangle();
+        System.out.println("enter length of rectangle");
+        int len=obj.nextInt();
+        System.out.println("enter breadth of rectangle");
+        int br=obj.nextInt();
+        int res1=len*br;
+        System.out.println("area od rectangle:"+res1);
+        
+    }
+    
+}
