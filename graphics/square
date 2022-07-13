@@ -1,0 +1,16 @@
+package graphics;
+
+/**
+ *
+ * @author sjcet
+ */
+import java.util.Scanner;
+public class square {
+    public void sqarea(){
+        Scanner obj=new Scanner(System.in);
+        System.out.println("enter length of side of square");
+        int side=obj.nextInt();
+        int res3=side*side;
+        System.out.println("area of square:"+res3);
+    }
+}
