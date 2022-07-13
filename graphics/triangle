@@ -1,0 +1,18 @@
+package graphics;
+
+/**
+ *
+ * @author sjcet
+ */
+import java.util.Scanner;
+public class triangle {
+    public void triarea(){
+        Scanner obj=new Scanner(System.in);
+        System.out.println("enter length of base of triangle");
+        int base=obj.nextInt();
+        System.out.println("enter height of triangle");
+        int hi=obj.nextInt();
+        int res2=(base*hi)/2;
+        System.out.println("area of triangle:"+res2);
+    }
+    }
